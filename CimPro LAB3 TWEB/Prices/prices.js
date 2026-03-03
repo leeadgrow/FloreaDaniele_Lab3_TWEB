@@ -1,6 +1,4 @@
-// =========================
 // Mobile menu toggle (same behavior as main)
-// =========================
 (() => {
   const btn = document.querySelector(".nav__toggle");
   const menu = document.querySelector(".nav__list");
@@ -16,7 +14,7 @@
     btn.setAttribute("aria-expanded", open ? "true" : "false");
   });
 
-  // Close on outside click
+  // inchide meniul pe mob cand apesi in afara lui
   document.addEventListener("click", (e) => {
     if (!menu.classList.contains("is-open")) return;
     const clickedToggle = e.target.closest(".nav__toggle");
@@ -24,15 +22,12 @@
     if (!clickedToggle && !clickedMenu) closeMenu();
   });
 
-  // Close on Escape
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeMenu();
   });
 })();
 
-// =========================
 // Newsletter (demo)
-// =========================
 document.getElementById("newsletterForm")?.addEventListener("submit", (e) => {
   e.preventDefault();
   const email = new FormData(e.target).get("email");
