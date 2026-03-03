@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | CimPro</title>
+  <meta name="description" content="Contact CimPro — distribuție ciment în Republica Moldova. Telefon, email și locație (Chișinău)." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <!-- Top bar -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <p class="topbar__text">Ai întrebări? Sună-ne sau scrie-ne — răspundem rapid.</p>
+
+        <div class="topbar__social" aria-label="Rețele sociale">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle header -->
+    <div class="midbar">
+      <div class="container midbar__inner">
+        <!-- Logo -->
+        <a href="/index.html" class="brand" aria-label="CimPro">
+          <img src="/images/cimpro-logo.png" alt="CimPro" class="brand__name" />
+        </a>
+
+        <!-- Info blocks -->
+        <div class="infobar" aria-label="Informații de contact">
+          <div class="info">
+            <div class="info__icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Program</div>
+              <div class="info__sub">Luni – Sâmbătă: 09:00 – 17:00</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="info__icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Adresă</div>
+              <div class="info__sub">Chișinău, Republica Moldova</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="info__icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Contact</div>
+              <div class="info__sub">
+                <a class="inline-link" href="tel:+37369000000">+373 69 000 000</a>
+                <span class="sep">•</span>
+                <a class="inline-link" href="mailto:contact@cimpro.md">contact@cimpro.md</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main nav -->
+    <nav class="nav" aria-label="Meniu principal">
+      <div class="container nav__inner">
+        <button class="nav__toggle" type="button" aria-label="Deschide meniul" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list" id="mainMenu">
+          <li><a class="nav__link" href="/index.html">Acasă</a></li>
+          <li><a class="nav__link" href="/Prices/prices.html">Prețuri</a></li>
+          <li><a class="nav__link" href="/About/about.html">Despre</a></li>
+          <li><a class="nav__link is-active" href="/Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="contact__eyebrow">CONTACT</p>
+      <h1 class="contact__title">Ia legătura cu noi</h1>
+      <p class="contact__subtitle">
+        Scrie-ne pentru ofertă, livrare sau recomandări. Îți răspundem cât mai curând posibil.
+      </p>
+
+      <div class="contact__grid">
+        <!-- LEFT: cards -->
+        <div class="contact__cards">
+          <article class="c-card">
+            <div class="c-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="c-card__txt">
+              <h3 class="c-card__title">Telefon</h3>
+              <p class="c-card__line"><a href="tel:+37369000000">+373 69 000 000</a></p>
+              <p class="c-card__hint">Luni – Sâmbătă, 09:00 – 17:00</p>
+            </div>
+          </article>
+
+          <article class="c-card">
+            <div class="c-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="c-card__txt">
+              <h3 class="c-card__title">Email</h3>
+              <p class="c-card__line"><a href="mailto:contact@cimpro.md">contact@cimpro.md</a></p>
+              <p class="c-card__hint">Răspundem în maximum 24 de ore</p>
+            </div>
+          </article>
+
+          <article class="c-card">
+            <div class="c-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="c-card__txt">
+              <h3 class="c-card__title">Locație</h3>
+              <p class="c-card__line">Chișinău, Republica Moldova</p>
+            </div>
+          </article>
+
+          <article class="c-card">
+            <div class="c-card__icon" aria-hidden="true">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="c-card__txt">
+              <h3 class="c-card__title">Program</h3>
+              <p class="c-card__line"><strong>Luni – Sâmbătă:</strong> 09:00 – 17:00</p>
+              <p class="c-card__line"><strong>Duminică:</strong> Închis</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- RIGHT: map -->
+        <div class="contact__map">
+          <iframe
+            title="Hartă Google"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Chisinau%2C%20Moldova&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (same style as homepage) -->
+  <footer class="footer" id="footer">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <h3 class="footer__title">CimPro</h3>
+        <p class="footer__text">
+          Distribuție de ciment în Republica Moldova. Livrare rapidă, comunicare clară și suport la alegerea produsului.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__meta">
+          <p><span>Telefon:</span> <strong><a class="footer__link" href="tel:+37369000000">+373 69 000 000</a></strong></p>
+          <p><span>Email:</span> <strong><a class="footer__link" href="mailto:contact@cimpro.md">contact@cimpro.md</a></strong></p>
+          <p><span>Oraș:</span> <strong>Chișinău, MD</strong></p>
+          <p class="footer__meta-spacer"></p>
+          <p><span>Program:</span></p>
+          <p class="footer__meta-row"><span>Luni – Sâmbătă:</span> <strong>09:00 – 17:00</strong></p>
+          <p class="footer__meta-row"><span>Duminică:</span> <strong>Închis</strong></p>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Linkuri utile</h3>
+        <ul class="footer__links">
+          <li><a href="/Prices/prices.html">Prețuri</a></li>
+          <li><a href="/About/about.html">Despre</a></li>
+          <li><a href="/Contact/contact.html">Contact</a></li>
+          <li><a href="#">Termeni &amp; condiții</a></li>
+          <li><a href="#">Confidențialitate</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Noutăți</h3>
+
+        <a class="footer__news" href="#">
+          <img class="footer__thumb" src="/images/cim2.avif" alt="Miniatură știre 1" />
+          <div class="footer__news-txt">
+            <div class="footer__news-title">Livrări rapide în Chișinău și raioane</div>
+            <div class="footer__news-date">Actualizat: 2026</div>
+          </div>
+        </a>
+
+        <a class="footer__news" href="#">
+          <img class="footer__thumb" src="/images/cim3.jpg" alt="Miniatură știre 2" />
+          <div class="footer__news-txt">
+            <div class="footer__news-title">Cum alegi tipul potrivit de ciment</div>
+            <div class="footer__news-date">Ghid scurt</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <p class="footer__copy">© 2026 CimPro. Toate drepturile rezervate.</p>
+
+        <nav class="footer__bar-links" aria-label="Linkuri subsol">
+          <a href="#">Confidențialitate</a>
+          <a href="#">Termeni</a>
+          <a href="/Contact/contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>

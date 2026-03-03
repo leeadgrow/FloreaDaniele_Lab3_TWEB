@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CimPro | Distribuție ciment în Republica Moldova</title>
+  <meta name="description" content="CimPro — distribuție ciment și materiale pentru construcții în Republica Moldova. Livrare rapidă, prețuri corecte, consultanță." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <!-- Top bar -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <p class="topbar__text">Ai întrebări? Sună-ne sau scrie-ne — răspundem rapid.</p>
+
+        <div class="topbar__social" aria-label="Rețele sociale">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle header -->
+    <div class="midbar">
+      <div class="container midbar__inner">
+        <!-- Logo -->
+        <a href="/index.html" class="brand" aria-label="CimPro">
+          <img src="/images/cimpro-logo.png" alt="CimPro" class="brand__name" />
+        </a>
+
+
+        <!-- Info blocks -->
+        <div class="infobar" aria-label="Informații de contact">
+          <div class="info">
+            <div class="info__icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Program</div>
+              <div class="info__sub">Luni – Sâmbătă: 09:00 – 17:00</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="info__icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Adresă</div>
+              <div class="info__sub">Chișinău, Republica Moldova</div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="info__icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="info__txt">
+              <div class="info__title">Contact</div>
+              <div class="info__sub">
+                <a class="inline-link" href="tel:+37369000000">+373 69 000 000</a>
+                <span class="sep">•</span>
+                <a class="inline-link" href="mailto:contact@cimpro.md">contact@cimpro.md</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main nav -->
+    <nav class="nav" aria-label="Meniu principal">
+      <div class="container nav__inner">
+        <button class="nav__toggle" type="button" aria-label="Deschide meniul" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list" id="mainMenu">
+          <li><a class="nav__link is-active" href="/index.html">Acasă</a></li>
+          <li><a class="nav__link" href="/Prices/prices.html">Prețuri</a></li>
+          <li><a class="nav__link" href="/About/about.html">Despre</a></li>
+          <li><a class="nav__link" href="/Contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-label="Slider principal">
+      <div class="hero__slides" aria-hidden="true">
+        <div class="hero__slide is-active" style="background-image:url('images/cim1.webp')"></div>
+        <div class="hero__slide" style="background-image:url('images/cim2.avif')"></div>
+        <div class="hero__slide" style="background-image:url('images/cim3.jpg')"></div>
+      </div>
+
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="hero__kicker">Ciment • Livrare • Consultanță</p>
+
+        <h1 class="hero__title">
+          CimPro — ciment de calitate<br />
+          livrat rapid în Moldova
+        </h1>
+
+        <p class="hero__desc">
+          Oferim soluții simple pentru șantiere și companii: prețuri clare, livrare la timp
+          și suport la alegerea tipului de ciment.
+        </p>
+
+        <a class="hero__btn" href="/Contact/contact.html">Cere ofertă</a>
+      </div>
+
+      <div class="hero__dots" aria-label="Paginare slider">
+        <button class="hero__dot is-active" type="button" aria-label="Mergi la slide 1"></button>
+        <button class="hero__dot" type="button" aria-label="Mergi la slide 2"></button>
+        <button class="hero__dot" type="button" aria-label="Mergi la slide 3"></button>
+      </div>
+    </section>
+  </header>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="services__eyebrow">CE OFERIM</p>
+
+      <h2 class="services__title">
+        Distribuție de ciment și materiale pentru construcții,
+        <br />
+        cu <span class="services__accent">livrare</span> și suport tehnic.
+      </h2>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="images/cim1.webp" alt="Ciment vrac și ambalat" />
+          </div>
+          <h3 class="service-card__title">Ciment vrac &amp; ambalat</h3>
+          <p class="service-card__desc">Stoc disponibil, opțiuni pentru proiecte mici și șantiere mari.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="images/cim2.avif" alt="Livrare în Republica Moldova" />
+          </div>
+          <h3 class="service-card__title">Livrare în Moldova</h3>
+          <p class="service-card__desc">Programări clare și livrare rapidă în Chișinău și raioane.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="images/cim3.jpg" alt="Consultanță la alegerea cimentului" />
+          </div>
+          <h3 class="service-card__title">Consultanță</h3>
+          <p class="service-card__desc">Te ajutăm să alegi tipul potrivit în funcție de lucrare.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img">
+            <img src="images/cim1.webp" alt="Parteneriate B2B" />
+          </div>
+          <h3 class="service-card__title">Parteneriate B2B</h3>
+          <p class="service-card__desc">Condiții bune pentru companii, dezvoltatori și echipe de construcții.</p>
+        </article>
+      </div>
+
+      <div class="services__actions">
+        <a class="btn btn--orange" href="/Prices/prices.html">Vezi prețuri</a>
+        <a class="btn btn--outline" href="/Contact/contact.html">Contactează-ne</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why choose -->
+  <section class="why" id="why">
+    <div class="why__wrap">
+      <div class="why__media" style="background-image:url('images/cim1.webp')">
+        <button class="why__play" type="button" aria-label="Redă video" data-video="https://www.youtube.com/watch?v=EM3aVlKpF0c">
+          <span class="why__play-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="why__content">
+        <h2 class="why__title">De ce CimPro</h2>
+
+        <ul class="why__list">
+          <li class="why__item">
+            <h3>Stoc și livrare predictibilă</h3>
+            <p>Confirmăm rapid disponibilitatea și stabilim împreună ora de livrare.</p>
+          </li>
+
+          <li class="why__item">
+            <h3>Prețuri clare</h3>
+            <p>Ofertare simplă, fără surprize — știi din start cât și pentru ce plătești.</p>
+          </li>
+
+          <li class="why__item">
+            <h3>Suport real</h3>
+            <p>Recomandări potrivite pentru proiectul tău și comunicare directă.</p>
+          </li>
+        </ul>
+
+        <a class="btn btn--orange" href="/About/about.html">Află mai mult</a>
+      </div>
+    </div>
+
+    <!-- Video modal -->
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <div class="video-modal__backdrop" data-close></div>
+
+      <div class="video-modal__panel" role="dialog" aria-modal="true" aria-label="Video">
+        <button class="video-modal__close" type="button" aria-label="Închide" data-close>×</button>
+        <div class="video-modal__frame">
+          <iframe
+            id="videoFrame"
+            title="Video"
+            src=""
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About cards -->
+  <section class="about-cards" id="about-company">
+    <div class="container">
+      <p class="about-cards__eyebrow">DESPRE NOI</p>
+      <h2 class="about-cards__title">CimPro pe scurt</h2>
+
+      <div class="about-cards__grid">
+        <article class="about-card">
+          <div class="about-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 54V14h18v40" />
+              <path d="M28 54V24h18v30" />
+              <path d="M46 54V34h8v20" />
+              <path d="M16 22h6M16 28h6M16 34h6M34 32h6M34 38h6M52 42h2M52 48h2" />
+            </svg>
+          </div>
+          <h3 class="about-card__title">Distribuție</h3>
+          <p class="about-card__desc">Ciment și produse esențiale pentru construcții, livrate rapid.</p>
+          <a class="about-card__arrow" href="/Prices/prices.html" aria-label="Vezi prețuri">→</a>
+        </article>
+
+        <article class="about-card">
+          <div class="about-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 26h40" />
+              <path d="M16 26V18l16-8 16 8v8" />
+              <path d="M18 26v22M28 26v22M36 26v22M46 26v22" />
+              <path d="M14 48h36" />
+            </svg>
+          </div>
+          <h3 class="about-card__title">Logistică</h3>
+          <p class="about-card__desc">Livrări planificate, comunicare clară și timp economisit.</p>
+          <a class="about-card__arrow" href="/Contact/contact.html" aria-label="Contactează-ne">→</a>
+        </article>
+
+        <article class="about-card">
+          <div class="about-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 50h44" />
+              <path d="M18 50V28" />
+              <path d="M46 50V28" />
+              <path d="M22 28h20" />
+              <path d="M32 12v16" />
+              <path d="M26 16h12" />
+            </svg>
+          </div>
+          <h3 class="about-card__title">Calitate</h3>
+          <p class="about-card__desc">Colaborăm cu furnizori verificați și recomandăm corect produsul.</p>
+          <a class="about-card__arrow" href="/About/about.html" aria-label="Despre CimPro">→</a>
+        </article>
+
+        <article class="about-card">
+          <div class="about-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 20h20" />
+              <path d="M18 20c0-6 28-6 28 0" />
+              <path d="M22 20v6c0 4 20 4 20 0v-6" />
+              <path d="M16 52V34c0-4 32-4 32 0v18" />
+              <path d="M24 52v-8M40 52v-8" />
+            </svg>
+          </div>
+          <h3 class="about-card__title">B2B</h3>
+          <p class="about-card__desc">Condiții avantajoase pentru companii și proiecte recurente.</p>
+          <a class="about-card__arrow" href="/Contact/contact.html" aria-label="Cere ofertă">→</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <h3 class="footer__title">CimPro</h3>
+        <p class="footer__text">
+          Distribuție de ciment în Republica Moldova. Livrare rapidă, comunicare clară și suport la alegerea produsului.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__meta">
+          <p><span>Telefon:</span> <strong><a class="footer__link" href="tel:+37369000000">+373 69 000 000</a></strong></p>
+          <p><span>Email:</span> <strong><a class="footer__link" href="mailto:contact@cimpro.md">contact@cimpro.md</a></strong></p>
+          <p><span>Oraș:</span> <strong>Chișinău, MD</strong></p>
+          <p class="footer__meta-spacer"></p>
+          <p><span>Program:</span></p>
+          <p class="footer__meta-row"><span>Luni – Sâmbătă:</span> <strong>09:00 – 17:00</strong></p>
+          <p class="footer__meta-row"><span>Duminică:</span> <strong>Închis</strong></p>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Linkuri utile</h3>
+        <ul class="footer__links">
+          <li><a href="/Prices/prices.html">Prețuri</a></li>
+          <li><a href="/About/about.html">Despre</a></li>
+          <li><a href="/Contact/contact.html">Contact</a></li>
+          <li><a href="#">Termeni &amp; condiții</a></li>
+          <li><a href="#">Confidențialitate</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Noutăți</h3>
+
+        <a class="footer__news" href="#">
+          <img class="footer__thumb" src="images/cim2.avif" alt="Miniatură știre 1" />
+          <div class="footer__news-txt">
+            <div class="footer__news-title">Livrări rapide în Chișinău și raioane</div>
+            <div class="footer__news-date">Actualizat: 2026</div>
+          </div>
+        </a>
+
+        <a class="footer__news" href="#">
+          <img class="footer__thumb" src="images/cim3.jpg" alt="Miniatură știre 2" />
+          <div class="footer__news-txt">
+            <div class="footer__news-title">Cum alegi tipul potrivit de ciment</div>
+            <div class="footer__news-date">Ghid scurt</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <p class="footer__copy">© 2026 CimPro. Toate drepturile rezervate.</p>
+
+        <nav class="footer__bar-links" aria-label="Linkuri subsol">
+          <a href="#">Confidențialitate</a>
+          <a href="#">Termeni</a>
+          <a href="/Contact/contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
