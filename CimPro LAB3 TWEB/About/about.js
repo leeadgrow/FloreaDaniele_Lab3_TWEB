@@ -1,6 +1,4 @@
-// =========================
 // Mobile menu toggle
-// =========================
 (() => {
   const btn = document.querySelector(".nav__toggle");
   const menu = document.querySelector(".nav__list");
@@ -11,7 +9,7 @@
     btn.setAttribute("aria-expanded", open ? "true" : "false");
   });
 
-  // Close menu when clicking a link (mobile)
+  // inchide meniul pe mob cand apesi in afara lui
   menu.addEventListener("click", (e) => {
     const link = e.target.closest("a");
     if (!link) return;
@@ -22,9 +20,7 @@
   });
 })();
 
-// =========================
 // Accordion (FAQ)
-// =========================
 (() => {
   const accRoot = document.querySelector("[data-accordion]");
   if (!accRoot) return;
@@ -44,7 +40,7 @@
     });
   };
 
-  // Sync aria with initial state
+  // ssync aria with initial state
   items.forEach((it) => setAria(it, it.classList.contains("is-open")));
 
   accRoot.addEventListener("click", (e) => {
@@ -66,9 +62,7 @@
   });
 })();
 
-// =========================
 // Newsletter (demo)
-// =========================
 document.getElementById("newsletterForm")?.addEventListener("submit", (e) => {
   e.preventDefault();
   const email = new FormData(e.target).get("email");
